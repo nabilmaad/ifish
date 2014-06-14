@@ -1,26 +1,22 @@
 <script src="/javascripts/application.js"></script>
 
-<body>
+<body class="content">
   <div class="padding">
     <h1>Sign Up </h1>
 
     <p>Welcome to iFish! Please fill in the inforamtion below to get started.</p>
 
-    <form>
+    <form action="http://172.28.4.187/~Nabil/register.php" method="post">
     First name: <input type="text" name="firstname" required><br>
     Last name: <input type="text" name="lastname"required><br>
     Phone Number: <input type="tel" name="phoneNumber"><br>
     User Name: <input type="text" name="userName"required><br>
     Password: <input type="password" name="password"required>
-    </form>
+    Repeat Password: <input type="password" name="password"required>
 
-
-    <ul class="list">
-      <li onClick="openLayer('/steroidsTutorial/controllers-completed.html')" class="item item-icon-right">
-        Submit
-        <i class="icon ion-ios7-arrow-right"></i>
+    <input type="submit">
       </li>
     </ul>
-
+    </form>
   </div>
 </body>
