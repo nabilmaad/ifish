@@ -3,23 +3,28 @@
 
 steroids.config.name = "iFish"
 
-# ## Start Location
+## Start Location
 steroids.config.location = "http://localhost/welcome.html"
 
-# ## Tab Bar
-# steroids.config.tabBar.enabled = true
-# steroids.config.tabBar.tabs = [
-#   {
-#     title: "Index"
-#     icon: "icons/pill@2x.png"
-#     location: "http://localhost/index.html"
-#   },
-#   {
-#     title: "Internet"
-#     icon: "icons/telescope@2x.png"
-#     location: "http://www.google.com"
-#   }
-# ]
+## Tab Bar
+steroids.config.tabBar.enabled = true
+steroids.config.tabBar.tabs = [
+  {
+    title: "Home"
+    icon: "icons/Home_icon_grey.png"
+    location: "http://localhost/welcome.html"
+  },
+  {
+    title: "My Account"
+    icon: "icons/pill@2x.png"
+    location: "http://localhost/views/userProfile/userProfile.html"
+  },
+  {
+    title: "Map"
+    icon: "icons/telescope@2x.png"
+    location: "https://www.google.com/maps/preview"
+  }
+]
 
 # steroids.config.tabBar.tintColor = "#000000"
 # steroids.config.tabBar.tabTitleColor = "#00aeef"

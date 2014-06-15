@@ -58,3 +58,9 @@ input[type="password"] {
     display: block;
     border: 2px solid gray;
 }
+
+.middle {
+	min-height: 10em;
+    display: table-cell;
+    vertical-align: middle }
+}
