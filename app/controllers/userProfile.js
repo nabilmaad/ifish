@@ -1,5 +1,5 @@
 // Display the native navigation bar with the title "Hello World!"
-steroids.view.navigationBar.show("Your account");
+steroids.view.navigationBar.show("Account");
 
 
 // Set the WebView background color to white (effective on iOS only)
@@ -11,6 +11,7 @@ function openLayer(location) {
 
   // ...is pushed to the navigation stack, opening on top of the current WebView.
   steroids.layers.push({ view: webView });
+  steroids.view.removeLoading();
   //steroids.view.navigationBar.show("Sign up");
   //steroids.view.navigationBar.update("iFish");
 }
